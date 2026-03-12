@@ -39,19 +39,25 @@ cost：每秒的能量消耗
 
 photosynthesis_rate：葉綠素！
 ### 元素物件
-Lorica(殼)：一個防禦物件
+Lorica(殼)：energy=3, volume=1, defense=7, cost=0.02
+<一個防禦物件>
 
-Spiculum(針)：一攻擊物件
+Spiculum(針)：energy=1, attack=2, cost=0.02
+<一攻擊物件>
 
-Folium(葉綠體)：光合作用的單位
+Folium(葉綠體)：energy=5, volume=0.2, cost=0.01, photosynthesis_rate=0.07
+<光合作用的單位>
 
-NucleusCellulae(細胞核)：玩家必須攜帶此元素，請玩家將他放置在最前面
+NucleusCellulae(細胞核)：energy=3, can_reproduce=True, volume=0.5, defense=1,  cost=0.01
+<玩家必須攜帶此元素，請玩家將他放置在最前面>
 
-Cytoplasma(細胞質)：一個中庸的物件
+Cytoplasma(細胞質)：energy=1, volume=0.5, defense=2, speed=2, cost=0.01
+<一個中庸的物件>
 
-CytoplasmaMobilis(超快細胞質)：能提供大量速度
+CytoplasmaMobilis(超快細胞質)：energy=1, volume=0.5, speed=5, cost=0.02
+<能提供大量速度>
 
-CytoplasmaMagnum(超胖細胞質)：很胖
+CytoplasmaMagnum(超胖細胞質)：energy=2, volume=3, defense=2, speed=1, cost=0.02<很胖>
 ## 世界限制
 ### 葉綠素限制
 葉綠素所能發揮的生產力會隨著生物總和能量的升高而逐漸降低。
